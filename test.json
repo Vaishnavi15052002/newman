@@ -1,0 +1,114 @@
+{
+	"info": {
+		"_postman_id": "2996c64c-8b2a-4f15-aac7-6a94a3a5b025",
+		"name": "my api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "48599759"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api-testing-bckn.onrender.com/heroes",
+					"protocol": "https",
+					"host": [
+						"api-testing-bckn",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"heroes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n        \"id\": 2,\r\n        \"name\": \"Vaishnavi\",\r\n        \"power\": \"Water Mastery\",\r\n        \"universe\": \"my Earth\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api-testing-bckn.onrender.com/heroes",
+					"protocol": "https",
+					"host": [
+						"api-testing-bckn",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"heroes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \r\n        \"name\": \"Vaishnavi kandgule\",\r\n        \"power\": \"Water Mastery\",\r\n        \"universe\": \"my Earth\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api-testing-bckn.onrender.com/heroes/4",
+					"protocol": "https",
+					"host": [
+						"api-testing-bckn",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"heroes",
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n        \"id\": 2,\r\n        \"name\": \"Vaishnavi\",\r\n        \"power\": \"Water Mastery\",\r\n        \"universe\": \"my Earth\"\r\n    }"
+				},
+				"url": {
+					"raw": "https://api-testing-bckn.onrender.com/heroes/2",
+					"protocol": "https",
+					"host": [
+						"api-testing-bckn",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"heroes",
+						"2"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
